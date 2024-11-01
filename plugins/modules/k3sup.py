@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 DOCUMENTATION = r'''
 ---
@@ -8,7 +8,7 @@ description:
     - Install k3s servers and agent on local or remote hosts.
 author: "Ivan Vandot"
 requirements:
-  - "python >= 2.6"
+  - "python >= 3"
 options:
   action:
     description:
